@@ -14,10 +14,10 @@ const CONTENT = {
       src:     "IMG_7355.mp4",
       caption: "Real results from a real Calgary Garage Detailing job."
     },
-    // {
-    //   src:     "another-video.mp4",
-    //   caption: "Before and after — full interior detail."
-    // },
+    {
+      src:     "IMG_2029.MOV",
+      caption: "Another look at our detailing work."
+    },
   ],
 
   // ── BEFORE / AFTER GALLERY ──────────────────────────────────

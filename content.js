@@ -27,9 +27,8 @@ const CONTENT = {
   // For a single plain photo use:  { single: "x.jpg", caption: "..." }
   gallery: [
     { before: "before.jpg",  after: "after.jpg"  },
-    { before: "before2.jpg", after: "after2.jpg" },
-    { before: "before3.jpg", after: "after3.jpg" },
     { before: "before1.jpg", after: "after1.jpg" },
+    { single: "workinprogress.jpg",            caption: "Work in Progress" },
     { single: "photo_2026-04-27_23-57-31.jpg", caption: "Door jamb detail" },
   ],
 

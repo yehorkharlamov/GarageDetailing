@@ -34,27 +34,37 @@ function renderServices() {
 function renderGallery() {
   const grid = document.getElementById('galleryGrid');
   if (!grid) return;
-  grid.innerHTML = CONTENT.gallery.map(pair => `
-    <div class="ba-slider">
-      <div class="ba-before-img">
-        <img src="${pair.before}" alt="Before" onerror="this.style.display='none'" />
-        <div class="ba-placeholder"><span>📷</span><p>${pair.before}</p></div>
-      </div>
-      <div class="ba-after-img">
-        <img src="${pair.after}" alt="After" onerror="this.style.display='none'" />
-        <div class="ba-placeholder"><span>✨</span><p>${pair.after}</p></div>
-      </div>
-      <span class="ba-label ba-label-left">Before</span>
-      <span class="ba-label ba-label-right">After</span>
-      <div class="ba-handle">
-        <div class="ba-circle">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
-            <path d="M8 5l-5 7 5 7M16 5l5 7-5 7" stroke="#000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-          </svg>
+  grid.innerHTML = CONTENT.gallery.map(item => {
+    if (item.single) {
+      return `
+        <div class="gallery-single">
+          <img src="${item.single}" alt="${item.caption || ''}" />
+          ${item.caption ? `<span class="gallery-single-caption">${item.caption}</span>` : ''}
+        </div>
+      `;
+    }
+    return `
+      <div class="ba-slider">
+        <div class="ba-before-img">
+          <img src="${item.before}" alt="Before" onerror="this.style.display='none'" />
+          <div class="ba-placeholder"><span>📷</span><p>${item.before}</p></div>
+        </div>
+        <div class="ba-after-img">
+          <img src="${item.after}" alt="After" onerror="this.style.display='none'" />
+          <div class="ba-placeholder"><span>✨</span><p>${item.after}</p></div>
+        </div>
+        <span class="ba-label ba-label-left">Before</span>
+        <span class="ba-label ba-label-right">After</span>
+        <div class="ba-handle">
+          <div class="ba-circle">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+              <path d="M8 5l-5 7 5 7M16 5l5 7-5 7" stroke="#000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
         </div>
       </div>
-    </div>
-  `).join('');
+    `;
+  }).join('');
 }
 
 // ── RENDER: Videos ────────────────────────────────────────────

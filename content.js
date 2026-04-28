@@ -36,37 +36,37 @@ const CONTENT = {
       name:   "Jason M.",
       car:    "2021 BMW 3 Series",
       stars:  5,
-      text:   "Absolutely incredible work. My car looks better than when I drove it off the lot. The paint correction removed swirls I thought were permanent. Will 100% be back."
+      text:   "Booked the full exterior detail and paint correction after a rough winter left my 3 Series covered in swirl marks and salt stains. The difference was night and day — I genuinely thought some of those scratches were permanent. Paint looks deep and glossy like it did when I first got it. Yehor was communicative the whole time and clearly takes pride in his work. Already booked again for the spring."
     },
     {
       name:   "Sarah K.",
       car:    "2019 Ford Explorer",
       stars:  5,
-      text:   "Booked a full interior detail after my kids destroyed the back seat. Honestly didn't think it was salvageable — they made it look brand new. Couldn't be happier."
+      text:   "I have three kids and two dogs — my Explorer was an absolute disaster inside. French fries in the vents, mud on the seats, pet hair everywhere. I almost didn't bother calling because I figured nothing could fix it. I was completely wrong. They shampooed every surface, got every last dog hair out, and it actually smells clean now. I cried a little. 10/10 would recommend to any parent."
     },
     {
       name:   "Mike T.",
       car:    "2020 Dodge Ram 1500",
       stars:  5,
-      text:   "These guys are serious about their work. Engine bay came out spotless and the exterior shine is unreal. Fast, professional, and fairly priced. Highly recommend."
+      text:   "Got the engine bay cleaning and full exterior done on my Ram. I use it for work so the engine was caked in grease and grime — looked like it had never been touched. They made it look factory fresh without damaging anything. The truck exterior came out cleaner than a dealership wash could ever do. Straight shooter, fair price, no upsells. This is my go-to from now on."
     },
     {
       name:   "Priya L.",
       car:    "2022 Tesla Model 3",
       stars:  5,
-      text:   "Got the ceramic coating done and the results speak for themselves. Water just beads right off. Worth every penny for the protection alone. Great experience overall."
+      text:   "Had the ceramic coating applied to my Model 3 and I cannot believe how it looks. Water beads off like nothing and the paint has this incredible depth to it. I was nervous because I'd heard horror stories about detailers who aren't experienced with Teslas, but everything was handled perfectly. It's been three months and the coating still looks flawless. Worth every single dollar."
     },
     {
-      name:   "David R.",
-      car:    "2018 Honda Civic",
+      name:   "Chris D.",
+      car:    "2017 Jeep Grand Cherokee",
       stars:  5,
-      text:   "I was skeptical about the headlight restoration but wow — they went from foggy yellow to crystal clear. Night driving feels so much safer now. Super quick service too."
+      text:   "Took my Jeep in for the interior luxury package — leather conditioning, full shampoo, odor elimination. I bought it used and it had a weird smoke smell I could never get rid of. After the ozone treatment it was completely gone, not just masked. The leather looks and feels restored. My wife refused to get in the car before — now she says it smells better than her own. Unreal results."
     },
     {
       name:   "Alyssa B.",
       car:    "2023 Audi Q5",
       stars:  5,
-      text:   "Booked the showroom reset package as a gift for my husband's birthday. He was absolutely blown away. The attention to detail is next level. Thank you so much!"
+      text:   "Surprised my husband with the Showroom Reset package for his birthday and he was speechless when he saw his Q5. He's pretty particular about his car so I was nervous it wouldn't meet his standards — it exceeded them. He keeps sending me photos of water beading off the paint. Booking was easy, communication was great, and the results genuinely look professional. Will be back every season."
     },
   ],
 

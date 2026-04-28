@@ -51,12 +51,6 @@ const CONTENT = {
       text:   "Got the engine bay cleaning and full exterior done on my Ram. I use it for work so the engine was caked in grease and grime — looked like it had never been touched. They made it look factory fresh without damaging anything. The truck exterior came out cleaner than a dealership wash could ever do. Straight shooter, fair price, no upsells. This is my go-to from now on."
     },
     {
-      name:   "Priya L.",
-      car:    "2022 Tesla Model 3",
-      stars:  5,
-      text:   "Had the ceramic coating applied to my Model 3 and I cannot believe how it looks. Water beads off like nothing and the paint has this incredible depth to it. I was nervous because I'd heard horror stories about detailers who aren't experienced with Teslas, but everything was handled perfectly. It's been three months and the coating still looks flawless. Worth every single dollar."
-    },
-    {
       name:   "Chris D.",
       car:    "2017 Jeep Grand Cherokee",
       stars:  5,
@@ -102,11 +96,6 @@ const CONTENT = {
       icon:        "🔬",
       title:       "Paint Correction",
       description: "Multi-stage machine polishing to eliminate swirl marks, scratches, and oxidation — restoring your paint's true depth."
-    },
-    {
-      icon:        "🛡️",
-      title:       "Paint Protection",
-      description: "Ceramic coatings, paint sealants, and wax protection to guard your finish against the harsh Calgary elements."
     },
     {
       icon:        "🚿",

@@ -1,3 +1,22 @@
+// ── RENDER: Reviews ──────────────────────────────────────────
+function renderReviews() {
+  const grid = document.getElementById('reviewsGrid');
+  if (!grid) return;
+  grid.innerHTML = CONTENT.reviews.map(r => `
+    <div class="review-card">
+      <div class="review-stars">${'★'.repeat(r.stars)}</div>
+      <p class="review-text">"${r.text}"</p>
+      <div class="review-author">
+        <div class="review-avatar">${r.name.charAt(0)}</div>
+        <div>
+          <div class="review-name">${r.name}</div>
+          <div class="review-car">${r.car}</div>
+        </div>
+      </div>
+    </div>
+  `).join('');
+}
+
 // ── RENDER: Services ─────────────────────────────────────────
 function renderServices() {
   const grid = document.getElementById('servicesGrid');
@@ -148,6 +167,7 @@ document.querySelectorAll('.pricing-tab').forEach(tab => {
 });
 
 // ── BOOT ──────────────────────────────────────────────────────
+renderReviews();
 renderServices();
 renderGallery();
 renderVideos();

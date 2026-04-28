@@ -29,6 +29,47 @@ const CONTENT = {
     { before: "before3.jpg", after: "after3.jpg" },
   ],
 
+  // ── REVIEWS ─────────────────────────────────────────────────
+  // Edit names, cars, and review text here. Add more by copying a block.
+  reviews: [
+    {
+      name:   "Jason M.",
+      car:    "2021 BMW 3 Series",
+      stars:  5,
+      text:   "Absolutely incredible work. My car looks better than when I drove it off the lot. The paint correction removed swirls I thought were permanent. Will 100% be back."
+    },
+    {
+      name:   "Sarah K.",
+      car:    "2019 Ford Explorer",
+      stars:  5,
+      text:   "Booked a full interior detail after my kids destroyed the back seat. Honestly didn't think it was salvageable — they made it look brand new. Couldn't be happier."
+    },
+    {
+      name:   "Mike T.",
+      car:    "2020 Dodge Ram 1500",
+      stars:  5,
+      text:   "These guys are serious about their work. Engine bay came out spotless and the exterior shine is unreal. Fast, professional, and fairly priced. Highly recommend."
+    },
+    {
+      name:   "Priya L.",
+      car:    "2022 Tesla Model 3",
+      stars:  5,
+      text:   "Got the ceramic coating done and the results speak for themselves. Water just beads right off. Worth every penny for the protection alone. Great experience overall."
+    },
+    {
+      name:   "David R.",
+      car:    "2018 Honda Civic",
+      stars:  5,
+      text:   "I was skeptical about the headlight restoration but wow — they went from foggy yellow to crystal clear. Night driving feels so much safer now. Super quick service too."
+    },
+    {
+      name:   "Alyssa B.",
+      car:    "2023 Audi Q5",
+      stars:  5,
+      text:   "Booked the showroom reset package as a gift for my husband's birthday. He was absolutely blown away. The attention to detail is next level. Thank you so much!"
+    },
+  ],
+
   // ── SERVICES ────────────────────────────────────────────────
   // Add, remove, or reword services here.
   services: [

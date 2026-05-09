@@ -28,6 +28,7 @@ const CONTENT = {
   gallery: [
     { before: "before.jpg",  after: "after.jpg"  },
     { before: "before1.jpg", after: "after1.jpg" },
+    { before: "before2.jpg", after: "after2.jpg" },
     { single: "workinprogress.jpg",            caption: "Work in Progress" },
     { single: "photo_2026-04-27_23-57-31.jpg", caption: "Door jamb detail" },
   ],
